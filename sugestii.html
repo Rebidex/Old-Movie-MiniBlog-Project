@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestii</title>
+    <link rel="stylesheet" href="sugestii.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="top">Sugestii</div>
+        <div class="bottom" aria-hidden="true">Sugestii</div>
+    </section>
+
+    <div>
+        <h2>Sugestii de filme despre care vrei să scriu un review:</h2>
+        <form action="sugestii.php" method="POST">
+            <input type="text" placeholder="Numele tau" required name="name" style="height:25%;font-size:16pt;"><br>
+            <input type="email" placeholder="Email" required name="email" style="height:25%;font-size:16pt;"><br>
+            <input type="text" placeholder="Numele Filmului" required name="film" style="height:25%;font-size:16pt;"><br>
+            <input type="text" placeholder="Gen" required name="gen" style="height:25%;font-size:16pt;"><br>
+            <input type="text" placeholder="Snacks" required name="snacks" style="height:25%;font-size:16pt;"><br>
+            <button type="submit" class="button-51" name="trimite">Recomanda filmul</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p><a href="atestat.html"><button class="button-30" role="button"><span class="text">Meniu Principal</span></button></a></p>
+    </div>
+</body>
+</html>
